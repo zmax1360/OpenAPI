@@ -1,0 +1,14 @@
+import OpenAI from "openai";
+
+const openai = new OpenAI({ apiKey: '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', dangerouslyAllowBrowser: true });
+
+async function main() {
+  const completion = await openai.chat.completions.create({
+    messages: [{ role: "system", content: "You are a helpful assistant." }],
+    model: "gpt-3.5-turbo",
+  });
+
+  console.log(completion.choices[0]);
+}
+
+main();
