@@ -1,0 +1,32 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .answer {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    flex: 1;
+    resize: none;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }

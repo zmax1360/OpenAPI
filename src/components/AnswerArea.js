@@ -2,7 +2,7 @@ import React from 'react';
 
 const AnswerArea = ({ answer }) => (
   <div>
-    <strong>Response:</strong>
+    <strong>Type with me</strong>
     <p>{answer}</p>
   </div>
 );
